@@ -1,0 +1,33 @@
+<meta charset="UTF-8">
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+   
+   var numero = parseInt(prompt("Digite o número a ser multiplicado: "));
+
+//    while (multiplicador <=10) {
+//     mostra(numero + " X " + multiplicador + " = " + numero * multiplicador);
+//     multiplicador++;
+//    }
+
+    for(var multiplicador = 1; multiplicador <=10;multiplicador++) {
+
+        mostra(numero + " X " + multiplicador + " = " + numero * multiplicador);
+    
+   }
+
+   mostra ("Fim");
+    
+
+
+</script>
