@@ -4,28 +4,35 @@
 
 header {
     background: #bbb;
-        position: fixed;
-        width: 100%;
-        top: 0;
-        right: 0;
-        z-index: 1000;
-        display: flex;
-        justify-content: space-between;
+    position: relative;
+        
 }
+
+h1 {
+    display: inline;
+    width: 50%;
+}
+
+nav {
+    width: 50%;
+    
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 10px;
+    right:0;
+}
+
+
+
+
 
 nav li {
     display:inline;
     margin:0 0 0 15px;
 }
 
-nav a {
-    text-transform: uppercase;
-    color:#000;
-    font-weight: bold;
-    font-size:22px;
-    text-decoration: none;
-    display: inline;
-}
 
 #banner {
     width:100%;
