@@ -2,13 +2,20 @@
     margin:0;
     padding: 0;
     border:0;
-       
+    font-size:100%;
+    font:inherit;
+    vertical-align: baseline;
 }
 
 header {
-    background: #BBB;
+    background:#bbb;
     padding: 20px 0;
-    
+}
+
+nav {
+    position:absolute;
+    top:110px;
+    right: 0;
 }
 
 .caixa{
@@ -17,14 +24,8 @@ header {
     margin:0 auto;
 }
 
-nav {
-    position: relative;
-    top: 0;
-    right: 0;
-}
-
 nav li {
-    display:inline-block;
+    display:inline;
     margin:0 0 0 15px;
 }
 
@@ -32,64 +33,63 @@ nav a {
     text-transform: uppercase;
     color:#000;
     font-weight: bold;
-    font-size: 18px;
+    font-size:22px;
     text-decoration: none;
 }
 
-#banner {
-    width:100%;
+nav a:hover {
+    color:#c78C19;
+    text-decoration: underline;
 }
 
-.principal {
-    background: #ccc;
-    padding: 30px;
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding:50px 0;
 }
 
-.titulo-principal{
-    padding-left: 20px;
-}
-
-.titulo-centralizado {
+.produtos li {
+    display: inline-block;
     text-align: center;
-}
-
-p{
-    text-align:center;
-}
-
-#missao {
-    font-size: 20px;
-}
-
-
-em strong {
-    color:#FF0000;
-}
-
-.itens {
-    font-style: italic;
-}
-
-.beneficios {
-    background:#FFF;
-    padding: 20px;
-}
-
-
-ul {
-    display:inline-block;
+    width: 30%;
     vertical-align: top;
-    width:20%;
-    margin-right: 15%;
+    margin:0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border:#000 2px solid;
+    border-radius: 10px;
 }
 
-.imagembeneficios {
-    width: 50%;
+.produtos li:hover {
+    border-color:#C78C19;
+}
+
+.produtos li:active {
+    border-color:#088C19;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
 footer {
     text-align: center;
-    background: url(./img/bg.jpg);
+    background: url("./img/bg.jpg");
     padding: 40px 0;
 }
 
