@@ -1,40 +1,11 @@
-*{
+* {
     margin:0;
+    padding: 0;
+    border:0;
+    font-size:100%;
+    font:inherit;
+    vertical-align: baseline;
 }
-
-header {
-    background: #bbb;
-    padding: 20px 0;
-        
-}
-
-nav {
-    position: absolute;
-    right: 0;
-    top: 0;
-
-}
-
-.caixa {
-    position: relative;
-    margin:0 auto;
-    width: 940px;
-}
-
-nav li {
-    display: inline;
-    margin: 0 0 0 15px;
-}
-
-
-nav a {
-    text-transform: uppercase;
-    color:#000;
-    font-weight: bold;
-    font-size:22px;
-    text-decoration: none;
-}
-
 
 #banner {
     width:100%;
